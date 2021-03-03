@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T03:30:23.673Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" version="14.4.3" etag="14Bvlm3eoX7UpCDWfpYO" type="github"><diagram id="X9lBv7kH--9ltCFE_zXg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-03T06:02:59.974Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="sejKneqUh2nucWIa0Uge" version="14.4.3" type="github">
+  <diagram id="X9lBv7kH--9ltCFE_zXg" name="第 1 页">
+    <mxGraphModel dx="945" dy="510" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="46eKohzUE9TFL7cOk2wB-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="260" y="200" width="688" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="46eKohzUE9TFL7cOk2wB-2" value="Lane 1" style="swimlane;html=1;startSize=20;" vertex="1" parent="46eKohzUE9TFL7cOk2wB-1">
+          <mxGeometry y="20" width="328" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="46eKohzUE9TFL7cOk2wB-5" value="begin;&lt;br&gt;select * from test where id between 20 and 30 for update;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="46eKohzUE9TFL7cOk2wB-2">
+          <mxGeometry x="14" y="31" width="314" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="46eKohzUE9TFL7cOk2wB-3" value="Lane 2" style="swimlane;html=1;startSize=20;" vertex="1" parent="46eKohzUE9TFL7cOk2wB-1">
+          <mxGeometry x="328" y="20" width="360" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="46eKohzUE9TFL7cOk2wB-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="350" y="93" width="403" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="46eKohzUE9TFL7cOk2wB-15" value="10" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="402" y="80" width="23" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="46eKohzUE9TFL7cOk2wB-16" value="20" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="80" width="23" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="46eKohzUE9TFL7cOk2wB-17" value="30" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="543" y="80" width="23" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="46eKohzUE9TFL7cOk2wB-18" value="40" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="617" y="78" width="23" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="46eKohzUE9TFL7cOk2wB-19" value="50" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="697" y="80" width="23" height="18" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
